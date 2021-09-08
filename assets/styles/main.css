@@ -1,0 +1,51 @@
+/* Header */
+header {
+  height: 15vh;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container nav {
+  display: flex;
+}
+
+header .container nav a {
+  color: #ffffff9f;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+header .container nav a + a {
+  margin-left: 2rem;
+}
+
+header button {
+  width: 180px;
+  height: 3rem;
+  border-radius: 50px;
+
+  border: 0;
+  background-color: #b83745;
+
+  color: #fff;
+}
+
+/* Main section */
+main {
+  background-image: url(../img/Group\ 2785.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 17rem;
+  background-size: 50%;
+  height: 85vh;
+}
+
+main .content-describe {
+  text-align: center;
+  color: #fff;
+}
