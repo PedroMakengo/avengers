@@ -41,7 +41,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-size: 50%;
+  background-size: 40%;
   height: 85vh;
 }
 
@@ -96,4 +96,24 @@ main .content-describe form button {
   width: 120px;
 
   border-radius: 50px;
+
+  background: #b83745;
+
+  color: #fff;
+  cursor: pointer;
+}
+
+main .person {
+  height: 47.7vh;
+
+  margin: 0 auto;
+  text-align: center;
+
+  background-image: url(../img/person.svg);
+  background-position: center;
+
+  background-size: 30%;
+
+  background-repeat: no-repeat;
+  background-position-y: top;
 }
