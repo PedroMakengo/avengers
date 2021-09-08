@@ -37,15 +37,63 @@ header button {
 
 /* Main section */
 main {
-  background-image: url(../img/Group\ 2785.svg);
+  background-image: url(../img/escudo-metade.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-position-y: 17rem;
+  background-position-y: bottom;
   background-size: 50%;
   height: 85vh;
 }
 
 main .content-describe {
+  margin: 0 auto;
   text-align: center;
   color: #fff;
+
+  padding: 1rem;
+}
+
+main .content-describe h1,
+main .content-describe h2 {
+  font-size: 3rem;
+}
+
+main .content-describe p {
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
+
+  color: #ffffff9f;
+}
+
+main .content-describe form {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+form {
+  background: #2c3440;
+  width: 400px;
+
+  border-radius: 50px;
+}
+
+main .content-describe form input {
+  padding: 0.7rem 1rem;
+  background: #2c3440;
+  width: 300px;
+
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+  border: 2px solid #2c3440;
+}
+
+main .content-describe form button {
+  border: 4px solid #2c3440;
+  width: 120px;
+
+  border-radius: 50px;
 }
